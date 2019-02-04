@@ -1,0 +1,37 @@
+.header {
+  display: block;
+  background-color: #e6e6e6;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+
+.mainnav {
+  position: relative;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  background-color: #1a1a1a;
+}
+.mainnav a {
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+}
+.mainnav_item {
+  border: 1px solid #000000;
+  text-align: center;
+  padding: 5px;
+}
+
+.footer {
+  margin: 0;
+  padding: 0;
+  background-color: #e6e6e6;
+}
+.footer p {
+  margin: 0;
+}
+
+a:hover {
+  background-color: #ffccff;
+}

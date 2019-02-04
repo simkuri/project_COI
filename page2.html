@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <style media="screen">
+      .sidebarandcontents {
+        display: grid;
+        grid-template-columns: 250px 1fr;
+        margin: 0;
+      }
+
+      .sidebar {
+        border-right: 1px solid black;
+        margin: 0;
+        padding: 20px;
+        line-height: 1.7em;
+        background-color: #262626;
+      }
+
+      .sidebar a {
+        text-decoration: none;
+        color: #ffffff;
+      }
+
+      .contents {
+        margin: 0;
+        padding: 20px;
+        padding-top: 0;
+      }
+
+      .container {padding: 20px;}
+    </style>
+  </head>
+  <body>
+    <h1 class="header">난민 국가정황정보 포털</h1>
+
+    <div class="mainnav">
+      <div class="mainnav_item"><a href="index.html">국가정황정보</a></div>
+      <div class="mainnav_item"><a href="page2.html">난민법령</a></div>
+      <div class="mainnav_item"><a href="page3.html">난민판례</a></div>
+      <div class="mainnav_item"><a href="page4.html">유관기관</a></div>
+    </div>
+
+    <div class="sidebarandcontents">
+      <ul class="sidebar">
+        <li><a href="#난민협약">난민협약(Convention Relating to the Status of Refugees)</a></li>
+        <li><a href="#의정서">의정서(Protocol)</a></li>
+        <li><a href="#난민법">난민법</a></li>
+        <li><a href="#출입국관리법">출입국관리법</a></li>
+      </ul>
+
+      <div class="contents">
+        <h3 id="난민협약">난민협약(Convention Relating to the Status of Refugees)</h3>
+          <div class="container">
+            <embed src="files/testconvention.pdf#toolbar=0" type="application/pdf" width="85%" height="700px">
+          </div>
+
+        <h3 id="의정서">의정서(Protocol)</h3>
+          <div class="container">
+            <embed src="files/testconvention.pdf" type="application/pdf" width="85%" height="700px">
+          </div>
+
+        <h3 id="난민법">난민법</h3>
+          <div class="container">
+            <iframe src="http://law.go.kr/LSW/lsSc.do?tabMenuId=tab18&p1=&subMenu=1&nwYn=1&section=&tabNo=&query=난민법#undefined" frameborder="0" width="85%" height="700px"></iframe>
+          </div>
+
+        <h3 id="출입국관리법">출입국관리법</h3>
+          <div class="container">
+            <iframe src="http://law.go.kr/lsSc.do?tabMenuId=tab18&p1=&subMenu=1&nwYn=1&section=&tabNo=&query=%EC%B6%9C%EC%9E%85%EA%B5%AD%EA%B4%80%EB%A6%AC%EB%B2%95#undefined" frameborder="0" width="85%" height="700px"></iframe>
+          </div>
+
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>Contact 관리자 for more information.</p>
+    </div>
+
+  </body>
+</html>
